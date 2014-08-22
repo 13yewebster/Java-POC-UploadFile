@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="">
+
+		<title>Front End Progress Async</title>
+
+		<link href="../style/css/init.css" rel="stylesheet">
+		<link href="../style/css/main.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+		  <script src="js/ie.js"></script>
+		<![endif]-->
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="style/img/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="shortcut icon" href="style/img/ico/favicon.ico">
+
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-4">
+					<div class="panel panel-default top-gap">
+						<div class="panel-heading">
+							<div class="text-center">
+								<h3 class="panel-title"><b>Menus</b></h3>
+					 		</div>
+						</div>
+						<div class="panel-body">
+							<div class="list-group">
+								<a href="../requirement-01/noProgressSync.html" class="list-group-item">No Progress Sync</a>
+								<a href="../requirement-01/noProgressAsync.html" class="list-group-item">No Progress Async</a>
+								<a href="../requirement-02/backEndProgressSync.html" class="list-group-item">Back End Progress Sync</a>
+								<a href="../requirement-02/backEndProgressAsync.html" class="list-group-item">Back End Progress Async</a>
+								<a href="frontEndProgressSync.html" class="list-group-item">Front End Progress Sync</a>
+								<a href="#" class="list-group-item active">Front End Progress Async</a>
+								<a href="../requirement-04/crop.html" class="list-group-item">Crop</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="panel panel-default top-gap">
+						<div class="panel-heading">
+							<div class="text-center">
+								<h3 class="panel-title"><b>Front End Progress Async</b></h3>
+					 		</div>
+						</div>
+						<div class="panel-body">
+							<div class="forms">
+								<div class="form-group">
+									<label for="toDirectory">Destination</label>
+									<select id="toDirectory" name="toDirectory" class="form-control">
+										<option value="saveToLocal">Save To Local</option>
+										<option value="saveToS3">Save To S3</option>
+									</select>
+								</div>
+								 <div class="form-group">
+									<label for="file">File Input</label>
+									<input type="file" size="50" name="file1" id="fileToUpload" class="form-control fileToUpload">
+									<p class="help-block">Please input your file.</p>
+		 						</div>
+		 						<input type="button" value="Upload" id="uploadButton" class="btn btn-block btn-default btn-sm uploadButton" disabled="">
+							</div>
+							<div class="notif">
+								<p class="text-center"><b class="states"></b></p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="agains text-center">
+									<button type="button" class="btn btn-primary btn-sm">Upload Another File</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1"></div>
+			</div>
+		</div>
+
+		<script src="../style/js/init.js"></script>
+		<script src="../style/js/main.js"></script>
+		<script src="../style/js/up/frontEndProgressAsync.js"></script>
+
+	</body>
+</html>

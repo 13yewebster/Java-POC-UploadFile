@@ -1,0 +1,54 @@
+/*
+ Main CSS
+*/
+
+body {
+	font-size: 12px;
+	background-color: #c5c5c5;
+}
+
+.form-control {
+	font-size: 12px;
+}
+
+.panel-default>.panel-heading {
+	color: #fff;
+	background-color: #2350a0;
+	border: 1px solid #333;
+}
+
+.panel-title {
+	font-size: 14px;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+	z-index: 2;
+	color: #fff;
+	background-color: #2350a0;
+	border: 1px solid #333;
+}
+
+.top-gap {
+	margin-top: 40px;
+}
+
+.panel-body .list-group {
+	margin-bottom: 0;
+}
+
+.notif,
+.agains {
+	display: none;
+}
+
+.notif .btn-primary,
+.notif .btn-primary:hover,
+.notif .btn-primary:focus,
+.notif .btn-primary:active,
+.notif .btn-primary.active {
+	color: #fff;
+	background-color: #2350a0;
+	border-color: #333;
+}
