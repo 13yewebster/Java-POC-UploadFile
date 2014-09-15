@@ -151,7 +151,6 @@ public class UploadServlet extends HttpServlet{
 
 	           		bytes = extract(stream);
 
-
 	           	}
 
          }

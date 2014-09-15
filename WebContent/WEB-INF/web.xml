@@ -43,6 +43,6 @@
   </servlet-mapping>
 
   <welcome-file-list>
-    <welcome-file>requirement-01/noProgressSync.html</welcome-file>
+    <welcome-file>POC_-_UploadFile/requirement-01/noProgressSync.html</welcome-file>
   </welcome-file-list>
 </web-app>
